@@ -241,11 +241,11 @@ a {
     flex-direction: row;
     gap: 20px;
   }
-  .scroll-link a {
+  .scroll-link {
     font-size: 1.5rem;
     transition: var(--transition);
   }
-  .scroll-link a:hover {
+  .scroll-link:hover {
     color: var(--clr-primary-8);
     transition: all 0.2s ease;
   }
@@ -291,8 +291,6 @@ a {
   .scroll-link {
     width: 300px;
     text-align: center;
-  }
-  .scroll-link a {
     color: var(--clr-primary-1);
     width: 100%;
     display: grid;
